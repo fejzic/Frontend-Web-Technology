@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+body {
+    margin: 0;
+    background: url('https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gabriela';
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Gabriela';
+    color: white;
+}
+
+.navbar-info {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    
+}
+
+.menu .menu_lista {
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.menu_lista:hover {
+    background-color: white;
+}
+
+.navbar-wrapper {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.img-custom {
+    float: left;
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    color: red;
+}
+
+.menu_lista a {
+    color: black;
+}
+
+.lista1 {
+    display: block;
+    max-width: 100%;
+    width: 270px;
+    height: 400px;
+    margin-left: 50px;
+    background-color: rgba(50, 115, 220, 0.3);
+    font-family: 'Gabriela';
+    float: left;
+}
+
+.prvagod a:hover {
+    color: red;
+}
+
+.l {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.lista2 {
+    display: block;
+    max-width: 100%;
+    width: 270px;
+    height: 400px;
+    margin-right: 50px;
+    background-color: rgba(50, 115, 220, 0.3);
+    font-family: 'Gabriela';
+    float: right;
+}
+.glavno {
+    overflow: hidden;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    font-family: 'Gabriela';
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.footerlista .footerlist {
+    display: inline;
+    margin: 40px;
+    margin-right: 67px;
+    color: black;
+    font-size: 20px;
+}
+
+.footer_a {
+    color: black;
+}
+
+.prvagod a {
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+.drugagod a {
+    color: white;
+}
+
+.drugagod a:hover {
+    color: red;
+}

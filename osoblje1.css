@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+body {
+    display: grid;
+    grid-template-rows: 150px 40px 1fr 1fr 40px 1fr  70px;
+    margin: 0;
+    background: url('https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gabriela';
+    color: white;
+    overflow-x:hidden;
+    gap: 20px;
+}
+header {
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0 auto;
+
+
+}
+#slass{
+    margin: 0 auto;
+   
+}
+.navbar-info {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    
+}
+
+.menu .menu_lista {
+    display: inline;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+.menu_lista:hover {
+    background-color: white;
+}
+.menu_lista a {
+    color: black;
+    
+}
+.img-custom {
+    width: 50%;
+    margin: 0 auto;
+}
+.img-custom img {
+    float: left;
+    margin: 0 0 0 20%;
+}
+.img-custom h1 {
+    width: 81%;
+}
+.profesori {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 50%;
+    grid-gap: 20px;
+}
+.asistenti {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.prof-wrapper {
+    height: 100%;
+    width: 75%;
+    margin-left: 3%;
+    float: left;
+    border: 2px solid #222;
+
+}
+
+.prof-img {
+    width: 108px;
+    height: 192px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prof-wrapper{
+    text-align: center;
+    font-style: italic;
+} 
+
+.prof-name, .prof-title, .prof-off-numb {
+    border-bottom: 2px solid #222;
+}
+.prof-subjects li {
+    list-style-type: none;
+    float: left;
+    margin-left: 10%;
+}
+.ass-img{
+        width: 108px;
+        height: 192px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.ass{
+    width: 70%;
+    margin-left: 2%;
+    float: left;
+    border: 10px solid #222;
+    background-color: rgba(116, 126, 141, 0.3);
+}
+.ass-img, .ass-name, .ass-off-numb{
+    border-bottom: 2px solid #222;
+}
+.ass .ass-name, .ass-off-numb {
+    text-align: center;
+}
+.ass-subjects li{
+    list-style-type: none;
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+}
+a{
+    color: whitesmoke;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    font-family: 'Gabriela';
+    font-style: italic;
+    bottom: 0;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    
+    
+}
+.footerlista .footerlist {
+    display: inline;
+    margin: 40px;
+    margin-right: 67px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer_a {
+    color: white;
+}
+@media only screen and (max-width: 500px) {
+    .profesori, .asistenti, header, .footer {
+        width: 100%;
+    }
+    .prof-wrapper {
+        width: 100%;
+        float: none;
+    }
+    .ass {
+        width: 100%;
+        float: none;
+        border: 0;
+        margin-bottom: 80px;
+    }
+}

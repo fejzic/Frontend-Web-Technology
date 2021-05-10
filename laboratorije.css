@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+body {
+    display: grid;
+    grid-template-rows: 160px 1fr 1fr 1fr 70px;
+    margin: 0;
+    background: url('https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gabriela';
+    color: white;
+    overflow-x:hidden;
+    gap: 10px;
+}
+header {
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-info {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    
+}
+
+.menu .menu_lista {
+    display: inline;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+.menu_lista:hover {
+    background-color: white;
+}
+.menu_lista a {
+    color: black;
+    
+}
+.img-custom {
+    width: 50%;
+    margin: 0 auto;
+}
+.img-custom img {
+    float: left;
+    margin: 0 0 0 20%;
+}
+.img-custom h1 {
+    width: 81%;
+
+}
+
+.container{
+    
+    padding: 10px 20px;
+}
+.my-row {
+   
+    margin: 0 auto;
+    border: 2px solid #222;
+    border-radius: 5px;
+    background-color: rgba(116, 126, 141, 0.3);
+   
+   
+}
+
+.my-col {
+    border: 2px solid #222;
+    border-radius: 5px;
+    background-color: rgba(116, 126, 141, 0.3);
+    padding: 20px 10px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+ ul li{
+     list-style: none;
+ }
+a{
+    color: black;
+}
+a:hover{
+    background-color: cornsilk;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    font-family: 'Gabriela';
+    font-style: italic;
+    bottom: 0;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    
+    
+}
+.footerlista .footerlist {
+    display: inline;
+    margin: 40px;
+    margin-right: 67px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer_a {
+    color: white;
+}
+@media only screen and (min-width: 576px) and (max-width: 991.98px) {
+     header, .footer {
+        width: 100%;
+    }
+    
+        .my-img{
+            width: 274px;
+            height: 184px;
+
+        
+    }
+}

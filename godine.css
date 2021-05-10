@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+body {
+    margin: 0;
+    background: url('https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gabriela';
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-info {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu .menu_lista {
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.menu_lista:hover {
+    background-color: white;
+}
+
+.navbar-wrapper {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.img-custom {
+    float: left;
+    margin: 15px;
+}
+
+.menu_lista a {
+    color: black;
+}
+
+.tabela {
+    float: left;
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: rgba(243, 243, 245, 0.3);
+    height: 50%;
+
+}
+th{
+    background-color: grey;
+}
+.naziv{
+    background-color: grey;
+    text-align: center;
+}
+
+.tabela td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: dotted;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+.dani{
+    background-color: grey;
+}
+.sedmica{
+    background-color: darkcyan;
+}
+
+.tabela th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+.tabela2{
+    width: 45%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: rgba(243, 243, 245, 0.3);
+    float: right;
+    height: 50px;
+}
+.tabela2 th{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+    
+}
+.tabela2 td{
+    width: 20%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: dotted;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+
+}
+.predavanje{
+    background-color: rgb(255, 190, 13) ;
+    color:darkorange;
+}
+.lab{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+.tut{
+    background-color:lightsteelblue;
+    color: blue;
+}
+.komb{
+    background-color: lightgrey;
+    color: black;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    font-family: 'Gabriela';
+    font-style: italic;
+    bottom: 0;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    
+    
+}
+#a{
+    overflow: hidden;
+}
+
+.footerlista .footerlist {
+    display: inline;
+    margin: 40px;
+    margin-right: 67px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer_a {
+    color: white;
+}

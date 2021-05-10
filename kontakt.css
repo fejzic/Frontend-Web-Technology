@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+body {
+    margin: 0;
+    background-image: url("https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg");
+    font-family: 'Gabriela';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: rgba(50, 115, 220, 0.3);
+    text-align: center;
+    font-family: 'Gabriela';
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    
+}
+
+.footerlista .footerlist {
+    display: inline;
+    margin: 40px;
+    margin-right: 67px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer_a {
+    color: white;
+}
